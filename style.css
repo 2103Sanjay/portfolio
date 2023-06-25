@@ -1,0 +1,193 @@
+body{
+  background-image: url(baground.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.gap{
+  display: flex;
+  gap: 40px;
+}
+.head{
+  display: flex;
+}
+.port{
+  margin-left:auto;
+  color: white;
+  margin-bottom: 20px;
+}
+.green{
+  color: greenyellow;
+}
+.content {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+.content:hover{
+  color: greenyellow;
+  text-decoration: underline;
+}
+.about{
+  display:flex;
+}
+.me{
+  border-radius: 600px;
+  margin-top: 100px;
+  float: left;
+}
+.me:hover{
+  position:relative;
+  zoom:101%;
+  cursor: pointer;
+}
+.indexheading{
+  color: aliceblue;
+  margin-top: 250px;
+  margin-left: 100px;
+  text-align: center;
+}
+.indexp{
+  color: white;
+  font-size:30px;
+}
+.touch{
+  padding: 10px;
+  margin-left: 50%;
+  background-color: greenyellow;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 30px;
+}
+.touch:hover{
+  background-color:transparent;
+  color: greenyellow;
+  border: 1px solid greenyellow;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.downlode{
+  padding: 10px;
+  background-color: greenyellow;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 40px;
+}
+.downlode:hover{
+  background-color: transparent;
+  text-decoration: none;
+  color: greenyellow;
+  border-radius: 40px;
+  border: 1px solid greenyellow;
+}
+.right{
+  text-align:right;
+  margin-top: 40px;
+}
+.cv{
+  color: #000;
+  text-decoration: none;
+}
+.cv:hover{
+  color: greenyellow;
+}
+.contactcontainer{
+  width: 500px;
+  height: 610px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid greenyellow;
+}
+.contactcontainer{
+  text-align: center;
+  color: aliceblue;
+  margin-left: 1000px;
+}
+.details{
+  text-decoration: none;
+  color: aliceblue;
+}
+.contactcontainer:hover{
+  background-color:#7777;
+  zoom: 101%;
+}
+.details:hover{
+  color: greenyellow;
+}
+.logo{
+  margin-top: 150px;
+}
+.logo:hover{
+  opacity: calc(12px);
+}
+.all{
+  display:flex;
+}
+.conect{
+  margin-top: 30px;
+}
+.underline{
+  color: greenyellow;
+}
+.skillheading{
+  color: white;
+}
+.myskill{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+.skill{
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+.html,.css,.javascript,.react,.node,.sql{
+  width: 500px;
+  height: 200px;
+  border-radius: 20px;
+  color: white;
+}
+.first:hover{
+  background-color: #7777;
+  border-radius: 20px;
+}
+.skill2{
+  display:flex;
+  margin-top: 60px;
+  text-align: center;
+}
+.ceritficate1{
+  display: flex;
+  gap: 80px;
+  text-align: center;
+}
+.cirt:hover{
+  cursor: pointer;
+  border-radius: 20px;
+  zoom: 101%;
+}
+.ceritdownlode{
+  padding: 10px;
+  border-radius: 20px;
+  background-color: transparent;
+  color: aqua;
+  cursor: pointer;
+}
+.ceritdownlode{
+  background-color: greenyellow;
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+.ceritdownlode:hover{
+  background-color:green;
+  color: white;
+  border: solid greenyellow 2;
+}
+.certtitle{
+  color: white;
+  text-align: center;
+  text-decoration:underline;
+  color: greenyellow;
+}
